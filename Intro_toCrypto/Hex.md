@@ -5,14 +5,14 @@ In order to decode this, we can either use Python or the Linux terminal.
 
 ### For Python
 
-`choice = str(input("Enter hex or bytes to get the output in that form: "))
-flag = str(input("Enter the string: "))
-if choice == "bytes":
-    print(bytes.fromhex(flag))
-elif choice == "hex":
-    print(flag.hex())
-else:
-    print("Invalid user input")`
+`choice = str(input("Enter hex or bytes to get the output in that form: ")) <br>
+flag = str(input("Enter the string: ")) <br>
+if choice == "bytes": <br>
+    print(bytes.fromhex(flag)) <br>
+elif choice == "hex": <br>
+    print(flag.hex()) <br>
+else: <br>
+    print("Invalid user input")` <br>
     
 The `bytes.fromhex()` function converts hex to bytes, while `.hex()` method converts bytes to hex
 
