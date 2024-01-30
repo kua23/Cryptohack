@@ -24,8 +24,8 @@ for i in range(0,26):
     flag += y
 print(flag.decode())
 
-#Flag
-#  crypto{x0r_i5_ass0c1at1v3}
+''' Flag
+crypto{x0r_i5_ass0c1at1v3} '''
 
 
 
