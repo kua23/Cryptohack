@@ -3,3 +3,6 @@ flag = ""
 for x in code:
     flag = flag + chr(x) #chr is a function used to convert decimal values into their corresponding ASCII 
 print(flag)
+
+#Flag
+    #crypto{ASCII_pr1nt4bl3}
