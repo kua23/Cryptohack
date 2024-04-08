@@ -1,4 +1,6 @@
-`All operations in RSA involve modular exponentiation.
+Problem Statement:
+
+All operations in RSA involve modular exponentiation.
 
 Modular exponentiation is an operation that is used extensively in cryptography and is normally written like: 210 mod 17
 
@@ -6,5 +8,7 @@ You can think of this as raising some number to a certain power (210 = 1024), an
 
 In RSA, modular exponentiation, together with the problem of prime factorisation, helps us to build a "trapdoor function". This is a function that is easy to compute in one direction, but hard to do in reverse unless you have the right information. It allows us to encrypt a message, and only the person with the key can perform the inverse operation to decrypt it.
 
-Find the solution to 10117 mod 22663`
+Find the solution to 10117 mod 22663.
+
+
 
